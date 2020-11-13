@@ -1,8 +1,8 @@
 # https://hub.docker.com/r/eklementev/build-image-go
 
-from golang:1.15-alpine
+from golang:1.15-buster
 
-RUN apk add git
+RUN apt-get install git
 
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:$PATH
