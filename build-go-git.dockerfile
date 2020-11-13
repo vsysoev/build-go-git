@@ -1,5 +1,3 @@
-# https://hub.docker.com/r/eklementev/build-image-go
-
 from golang:1.15-buster
 
 RUN apt-get install git
